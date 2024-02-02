@@ -1,9 +1,10 @@
 import React from 'react';
+import Counter from '../components/Counter';
 
 const Home = () => {
     return (
         <div>
-            <h2 className='text-xl text-blue-900 bg-slate-400'>Hello</h2>
+            <Counter/>
         </div>
     );
 };
